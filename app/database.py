@@ -5,7 +5,7 @@ from urllib.parse import quote
 from sqlalchemy.engine import create_engine
 from .config import settings
 
-SQLALCHEMY_DATABASE_URL = f'postgresql://postgres:Siddhu8897@localhost:5432/shiv'
+SQLALCHEMY_DATABASE_URL = f'postgresql://postgres:Siddhu8897@localhost:5432/disaster_management'
 #postgresql://<username>:<password>@<ip-address/hostname>/<database_name>
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
